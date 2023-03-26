@@ -1,7 +1,7 @@
 /* Colores: #F4E3BF, #FBCBA8, #DC4541 */
 
 body {
-    height:100vh;
+    height:100%;
     background-image: linear-gradient(to bottom, #F4E3BF 40%, #FBCBA8 100%);
     background-size: 100% 100%;
     background-position: 40% 0%;
@@ -20,6 +20,9 @@ h1 {
 .aboutMe {
     margin:  0rem 10rem;
     margin-top: 1rem;
+    text-align: justify;
+    display: flex;
+    align-items: center;
 }
 
 img.roundedImage {
@@ -34,4 +37,5 @@ img.roundedImage {
     background-color: #DC4541;
     border-radius: 8px;
     color: white;
+    text-align: center;
 }
