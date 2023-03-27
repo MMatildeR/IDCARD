@@ -39,5 +39,6 @@ img.roundedImage {
     background-color: #DC4541;
     border-radius: 8px;
     color: white;
+    display: inline-block;
     text-align: center;
 }
