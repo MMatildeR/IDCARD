@@ -1,6 +1,7 @@
 /* Colores: #F4E3BF, #FBCBA8, #DC4541 */
 
 body {
+    
     height:100%;
     background-image: linear-gradient(to bottom, #F4E3BF 40%, #FBCBA8 100%);
     background-size: 100% 100%;
@@ -8,6 +9,16 @@ body {
     font-family: 'Roboto', sans-serif;
   }
   
+  #photoName {
+    display:flex;
+    flex-flow: wrap;
+  }
+
+  #photoName img,
+  #photoname h1 {
+    max-width: 100%;
+    align-content: center;
+  }
 
 h1 {
      color: #DC4541;
@@ -18,7 +29,7 @@ h1 {
     }
 
 .aboutMe {
-    margin:  0rem 10rem;
+    margin:  0% 10%;
     margin-top: 1rem;
     text-align: justify;
     position:relative;
